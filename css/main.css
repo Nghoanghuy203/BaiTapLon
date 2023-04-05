@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.width_page {
+    width: 1242px;
+}
+#wapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.header_logo img {
+    height: 60px;
+    width: 90px;
+}
+.header_nav {
+    display: flex;
+    align-items: center;
+    min-width: 1024px;
+}
+.header_nav-item {
+    margin-left: 25px;
+}
+.header_nav a {
+    color: #000;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+.header_search-icon {
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    font-size: 24px;
+}
+.header_search-icon a {
+    color: #000;
+}
+.center {
+    width: 100%;
+}
+.banner {
+    height: calc(100vh - 70px);
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.sharder_bottom {
+    background: linear-gradient(rgba(0,0,0,0) 50%, rgb(0,0,0) 100%);
+    inset: 0px;
+    position: absolute;
+}
+.banner_content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: absolute;
+}
+.banner_content h1 {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+.banner_content h4 {
+    margin-bottom: 15px;
+    opacity: 0.8;
+    font-size: 20px;
+}
+.banner_content a {
+    height: 60px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    z-index: 1;
+}

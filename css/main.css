@@ -185,3 +185,67 @@
     text-decoration: none;
 }
 
+.model_learnabout {
+    width: 100%;
+    height: 1400px;
+    overflow: hidden;
+    position: relative;
+}
+.model_learnabout-picture img {
+    top: -35.875px;
+    width: 100%;
+}
+.model_learnabout-content {
+    top: 243.469px;
+    transform: translate3d(0px, 0px, 0px);
+    position: absolute;
+    left: 4%;
+    padding: 40px;
+    background-color: #fff;
+}
+.model_learnabout-content h2 {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.model_learnabout-content a {
+    width: 270px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.model_moreabout {
+    width: 92%;
+    margin: 90px 4% 30px;
+}
+.model_moreabout-heading {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 600;
+}
+.model_moreabout-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+.model_moreabout-item-link {
+    width: calc(33.333% - 2px);
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+.model_moreabout-item img{
+    width: 100%;
+}
+.model_moreabout-item-info p {
+    margin-top: 20px;
+}
+.model_moreabout-item-info i {
+    margin-left: 10px;
+}
